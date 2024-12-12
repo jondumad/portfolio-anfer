@@ -10,10 +10,32 @@
 	<body>
 		<main>
 			<header>
-				<h1>Uh-oh!</h1>
-				<p>
-					It looks like you've stumbled upon a broken link or incorrect URL.
-				</p>
+				<div class="hamburger-menu">
+					<input type="checkbox" id="menu-toggle" class="menu-toggle" />
+					<label for="menu-toggle" class="menu-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</label>
+				</div>
+				<ul id="navLinks" class="nav-links">
+					<li><a href="index.html#home" class="nav-link">Home</a></li>
+					<li><a href="terms.html" class="nav-link">Terms</a></li>
+					<li><a href="careers.html" class="nav-link">Careers</a></li>
+				</ul>
+
+				<div class="theme-toggle">
+					<button aria-label="Toggle Theme" class="theme-icon">
+						<span class="moon-icon">🌙</span>
+						<span class="sun-icon">☀️</span>
+					</button>
+				</div>
+
+				<!-- Search Bar -->
+				<div class="search-container">
+					<input type="text" class="search-bar" placeholder="Search..." />
+					<button class="search-btn">🔍</button>
+				</div>
 			</header>
 
 			<section>
@@ -30,7 +52,17 @@
 		</main>
 
 		<footer>
-			<p>&copy; 2024 John Doe. All Rights Reserved.</p>
+			<p>
+				© 2024 Anfernee R. Herdian All Rights Reserved. |
+				<a href="#contact">Contact Me</a>
+			</p>
+			<div class="social-links">
+				<a href="https://github.com" target="_blank" class="social-icon">🐙</a>
+				<a href="https://linkedin.com" target="_blank" class="social-icon"
+					>🔗</a
+				>
+				<a href="https://twitter.com" target="_blank" class="social-icon">🐦</a>
+			</div>
 		</footer>
 
 		<script src="script.js"></script>
