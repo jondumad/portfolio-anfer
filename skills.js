@@ -1,31 +1,31 @@
 const skills = [
 	{
 		name: "JavaScript",
-		logo: "/assets/js.png",
+		logo: "assets/js.png",
 		link: "https://www.javascript.com",
 		delay: 1,
 	},
 	{
 		name: "React",
-		logo: "/assets/react.png",
+		logo: "assets/react.png",
 		link: "https://react.dev",
 		delay: 2,
 	},
 	{
 		name: "Node.js",
-		logo: "/assets/nodejs.png",
+		logo: "assets/nodejs.png",
 		link: "https://nodejs.org",
 		delay: 3,
 	},
 	{
 		name: "Python",
-		logo: "/assets/python.png",
+		logo: "assets/python.png",
 		link: "https://www.python.org",
 		delay: 4,
 	},
 	{
 		name: "Docker",
-		logo: "/assets/docker.png",
+		logo: "assets/docker.png",
 		link: "https://www.docker.com",
 		delay: 5,
 	},
